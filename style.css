@@ -1,0 +1,116 @@
+body{
+    font-family:'Source Sans Pro', sans-serif;
+    text-align: center;
+    background-image:url(/material/foto3.jpg);
+    background-size:auto;
+    background-repeat:no-repeat;
+}
+
+img{
+    display:inline-flex;
+    width:200px;
+    height:200px;
+    margin:0 auto;
+}
+
+form{
+    background-color: #1c1c1c;
+    height:auto;
+    width:25rem;
+    border-radius: 2rem;
+    margin:0 auto;
+}
+
+fieldset{
+    width:auto;
+    height:auto;
+    border:none;
+    margin:auto;
+}
+
+legend{
+    font-size:1.5rem;
+    text-decoration:none;
+    color:#bfbfbf;
+    width:auto;
+    margin: 1rem auto;
+    font-weight: bold;
+    border-bottom:solid 0.1rem;
+    padding-bottom:0.5rem;
+}
+
+.campos{
+    font-size:1rem;
+    text-decoration: none;
+    text-align: center;
+    margin:0.3rem auto;
+    width:20rem;
+    height:2rem;
+    border-color:#616161;
+    border-radius: 0.75rem;
+    background-color: #1c1c21;
+    color:#bfbfbf;
+    padding:0;
+}
+
+.campos:focus{
+    outline: none;
+}
+
+.boton {
+    color:black;
+    font-size:1rem;
+    margin:0.4rem auto;
+    width:20.25rem;
+    height:2.5rem;
+    border:none;
+    border-radius: 1rem;
+    background-color: #FFCB74;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+p{
+    font-size:1.4rem;
+    color:#bfbfbf;
+    text-decoration: none;
+    margin:0 auto;
+    max-width: 25rem;
+}
+
+#Facebook{
+    background-color:#1877f2;
+    padding-bottom:0.2rem;
+}
+
+#Google{
+    background-color:#fff;
+}
+
+i{
+    font-size:1.4rem;
+    display:flex;
+    float:left;
+    margin-left:1rem;
+}
+
+.text{
+    max-width: 20rem;
+    margin:0.4rem auto;
+    font-size:0.75rem;
+}
+
+.login{
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+a{
+    text-decoration:none;
+    color:#FFCB74;
+}
+
