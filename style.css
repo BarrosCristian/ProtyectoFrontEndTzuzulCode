@@ -1,15 +1,20 @@
+*{
+    height: 100%;
+}
+
 body{
     font-family:'Source Sans Pro', sans-serif;
     text-align: center;
     background-image:url(/material/foto3.jpg);
     background-size:auto;
-    background-repeat:no-repeat;
+    display:flex;
+    margin:0;
 }
 
 img{
     display:inline-flex;
-    width:200px;
-    height:200px;
+    width:12.5rem;
+    height:12.5rem;
     margin:0 auto;
 }
 
@@ -18,7 +23,7 @@ form{
     height:auto;
     width:25rem;
     border-radius: 2rem;
-    margin:0 auto;
+    margin:auto;
 }
 
 fieldset{
@@ -30,7 +35,6 @@ fieldset{
 
 legend{
     font-size:1.5rem;
-    text-decoration:none;
     color:#bfbfbf;
     width:auto;
     margin: 1rem auto;
@@ -39,9 +43,12 @@ legend{
     padding-bottom:0.5rem;
 }
 
+label{
+    display:none;
+}
+
 .campos{
     font-size:1rem;
-    text-decoration: none;
     text-align: center;
     margin:0.3rem auto;
     width:20rem;
@@ -73,25 +80,18 @@ legend{
 p{
     font-size:1.4rem;
     color:#bfbfbf;
-    text-decoration: none;
     margin:0 auto;
     max-width: 25rem;
 }
 
 #Facebook{
     background-color:#1877f2;
-    padding-bottom:0.2rem;
+    padding-bottom:0.8rem;
 }
 
 #Google{
     background-color:#fff;
-}
-
-i{
-    font-size:1.4rem;
-    display:flex;
-    float:left;
-    margin-left:1rem;
+    padding-bottom:0.8rem;
 }
 
 .text{
@@ -110,7 +110,5 @@ span{
 }
 
 a{
-    text-decoration:none;
     color:#FFCB74;
 }
-
