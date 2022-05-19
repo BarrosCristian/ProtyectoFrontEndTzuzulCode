@@ -77,6 +77,10 @@ label{
     font-weight: bold;
 }
 
+svg{
+    font-size: 1.2rem;
+}
+
 p{
     font-size:1.4rem;
     color:#bfbfbf;
